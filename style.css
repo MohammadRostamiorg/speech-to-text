@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(45deg,#303030,#6f7279);
+    min-height: 100lvh;
+}
+
+#transcriptedText{
+    width: 50vw;
+    height: 50vh;
+    overflow: auto;
+    background-color: #fff;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+#transcriptBtn{
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 152, 253);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#transcriptBtn:hover{
+    background-color: rgb(0, 173, 253);
+}
